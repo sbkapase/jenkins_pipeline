@@ -3,13 +3,13 @@ agent by
 stages{
      stage('Build')
      {
-     step{
+     steps{
      echo "build is done...."
      }
      }
      stage('Deploy')
      {
-     step{
+     steps{
      echo "deploy is done successfully...."
      }
      }
